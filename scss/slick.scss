@@ -1,0 +1,224 @@
+$svg: 'icomoon';
+$black: #212121;
+$blue: #007ac2;
+$blue-2: #a7c8db;
+$grey: #e5eaed;
+$red-2: #610801;
+$green: #b2d235;
+
+.slick-slider {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+  height: 100%;
+}
+
+.slick-list {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  &:focus {
+    outline: none;
+  }
+
+  &.dragging {
+    cursor: pointer;
+    cursor: hand;
+  }
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+.slick-track {
+  position: relative;
+  left: 0;
+  top: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  &:before,
+  &:after {
+    content: "";
+    display: table;
+  }
+
+  &:after {
+    clear: both;
+  }
+
+  .slick-loading & {
+    visibility: hidden;
+  }
+}
+
+.slick-slide {
+  float: left;
+  height: 100%;
+  min-height: 1px;
+  [dir="rtl"] & {
+    float: right;
+  }
+  img {
+    display: block;
+  }
+  &.slick-loading img {
+    display: none;
+  }
+
+  display: none;
+
+  &.dragging img {
+    pointer-events: none;
+  }
+
+  .slick-initialized & {
+    display: block;
+  }
+
+  .slick-loading & {
+    visibility: hidden;
+  }
+
+  .slick-vertical & {
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+  }
+}
+
+.slick-arrow.slick-hidden {
+  display: none;
+}
+
+.slick-dots {
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  li {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    overflow: hidden;
+    border-radius: 100%;
+    background-color: $grey;
+    margin: 0 5px;
+    &.slick-active {
+      background-color: $blue;
+    }
+    button {
+      display: none;
+      text-indent: -9999px;
+    }
+  }
+}
+
+.slick-arrow {
+  z-index: 1;
+  cursor: pointer;
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 100%;
+  background-color: $grey;
+  color: $black;
+  &::before {
+    font-family: $svg;
+    content: "\e906";
+    font-size: 16px;
+    display: block;
+  }
+  &:hover {
+    background-color: $blue;
+    color: #fff;
+  }
+  &.slick-prev {
+    top: 50%;
+    transform: translateY(-50%);
+    left: -65px;
+    &::before {
+      transform: rotate(180deg);
+    }
+  }
+  &.slick-next {
+    top: 50%;
+    transform: translateY(-50%);
+    right: -65px;
+  }
+}
+
+.dev_color_slider .slick-dots {
+  position: absolute;
+  bottom: 20px;
+  margin-top: 0;
+  padding: 3px 0;
+  li {
+    margin: 0 10px;
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    span {
+      display: block;
+      height: 100%;
+      width: 100%;
+    }
+    &.slick-active {
+      background-color: transparent;
+      box-shadow: 0 0 0 3px $blue;
+    }
+  }
+}
+
+#dev_slider + .slider-arrow .slick-arrow {
+  pointer-events: auto;
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  border-radius: 0;
+  background-color: rgba(255, 255, 255, .9);
+  &:hover {
+    background-color: #fff;
+    color: $black;
+  }
+  &.slick-prev {
+    top: 0;
+    transform: none;
+    left: auto;
+    right: 15px;
+    &::before {
+      transform: rotate(-90deg);
+    }
+  }
+  &.slick-next {
+    top: auto;
+    bottom: 0;
+    transform: none;
+    left: auto;
+    right: 15px;
+    &::before {
+      transform: rotate(90deg);
+    }
+  }
+}

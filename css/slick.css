@@ -1,0 +1,178 @@
+.slick-slider {
+  position: relative;
+  display: block;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+  height: 100%; }
+
+.slick-list {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  margin: 0;
+  padding: 0;
+  height: 100%; }
+  .slick-list:focus {
+    outline: none; }
+  .slick-list.dragging {
+    cursor: pointer;
+    cursor: hand; }
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0); }
+
+.slick-track {
+  position: relative;
+  left: 0;
+  top: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%; }
+  .slick-track:before, .slick-track:after {
+    content: "";
+    display: table; }
+  .slick-track:after {
+    clear: both; }
+  .slick-loading .slick-track {
+    visibility: hidden; }
+
+.slick-slide {
+  float: left;
+  height: 100%;
+  min-height: 1px;
+  display: none; }
+  [dir="rtl"] .slick-slide {
+    float: right; }
+  .slick-slide img {
+    display: block; }
+  .slick-slide.slick-loading img {
+    display: none; }
+  .slick-slide.dragging img {
+    pointer-events: none; }
+  .slick-initialized .slick-slide {
+    display: block; }
+  .slick-loading .slick-slide {
+    visibility: hidden; }
+  .slick-vertical .slick-slide {
+    display: block;
+    height: auto;
+    border: 1px solid transparent; }
+
+.slick-arrow.slick-hidden {
+  display: none; }
+
+.slick-dots {
+  width: 100%;
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+  .slick-dots li {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    overflow: hidden;
+    border-radius: 100%;
+    background-color: #e5eaed;
+    margin: 0 5px; }
+    .slick-dots li.slick-active {
+      background-color: #007ac2; }
+    .slick-dots li button {
+      display: none;
+      text-indent: -9999px; }
+
+.slick-arrow {
+  z-index: 1;
+  cursor: pointer;
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 100%;
+  background-color: #e5eaed;
+  color: #212121; }
+  .slick-arrow::before {
+    font-family: "icomoon";
+    content: "\e906";
+    font-size: 16px;
+    display: block; }
+  .slick-arrow:hover {
+    background-color: #007ac2;
+    color: #fff; }
+  .slick-arrow.slick-prev {
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: -65px; }
+    .slick-arrow.slick-prev::before {
+      -webkit-transform: rotate(180deg);
+      transform: rotate(180deg); }
+  .slick-arrow.slick-next {
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: -65px; }
+
+.dev_color_slider .slick-dots {
+  position: absolute;
+  bottom: 20px;
+  margin-top: 0;
+  padding: 3px 0; }
+  .dev_color_slider .slick-dots li {
+    margin: 0 10px;
+    width: 30px;
+    height: 30px;
+    background-color: transparent; }
+    .dev_color_slider .slick-dots li span {
+      display: block;
+      height: 100%;
+      width: 100%; }
+    .dev_color_slider .slick-dots li.slick-active {
+      background-color: transparent;
+      -webkit-box-shadow: 0 0 0 3px #007ac2;
+      box-shadow: 0 0 0 3px #007ac2; }
+
+#dev_slider + .slider-arrow .slick-arrow {
+  pointer-events: auto;
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  border-radius: 0;
+  background-color: rgba(255, 255, 255, 0.9); }
+  #dev_slider + .slider-arrow .slick-arrow:hover {
+    background-color: #fff;
+    color: #212121; }
+  #dev_slider + .slider-arrow .slick-arrow.slick-prev {
+    top: 0;
+    -webkit-transform: none;
+    transform: none;
+    left: auto;
+    right: 15px; }
+    #dev_slider + .slider-arrow .slick-arrow.slick-prev::before {
+      -webkit-transform: rotate(-90deg);
+      transform: rotate(-90deg); }
+  #dev_slider + .slider-arrow .slick-arrow.slick-next {
+    top: auto;
+    bottom: 0;
+    -webkit-transform: none;
+    transform: none;
+    left: auto;
+    right: 15px; }
+    #dev_slider + .slider-arrow .slick-arrow.slick-next::before {
+      -webkit-transform: rotate(90deg);
+      transform: rotate(90deg); }
