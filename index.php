@@ -18,12 +18,12 @@
                 <div class="row large-align-middle medium-align-middle small-align-middle">
                     <div class="large-shrink medium-expand small-expand column">
                         <div class="logo">
-                            <img src="img/logo.svg" alt=""/>
+                            <img src="img/logo_header.svg" alt=""/>
                         </div>
                     </div>
                     <div class="show-for-large large-expand column">
                         <div class="slogan">
-                            Заводские белорусские модульные кухни от производителя в Караганде и Астане
+                            Кухонные мойки из саянского мрамора брендов Granicom, Novell и Milani
                         </div>
                     </div>
                     <div class="large-shrink medium-shrink small-shrink column">
@@ -32,7 +32,7 @@
                                class="info-whatsapp"></a>
                             <a href="tel:+77001913032" class="info-phone"></a>
                             <div class="show-for-large info-data">
-                                <a href="tel:+77001913032">+7 (7212) 972 060</a>
+                                <a href="tel:+77759479595">+7 (775) 947 95 95</a>
                                 ежедневно 9:00 до 20:00
                             </div>
                             <a href="javascript:;" id="dev_dropdown_open" class="hide-for-large info-burger"></a>
@@ -65,7 +65,7 @@
                                     <a href="#production"><span>Производство</span></a>
                                 </li>
                                 <li>
-                                    <a href="#step"><span>Как мы работаем</span></a>
+                                    <a href="#step"><span>Ищем представителей</span></a>
                                 </li>
                                 <li>
                                     <a href="#contact"><span>Контакты</span></a>
