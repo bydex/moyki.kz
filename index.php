@@ -121,7 +121,7 @@
                     <img class="slider-list_item__img"
                          data-interchange="[upload/slider/1-min.jpg, small], [upload/slider/1.jpg, medium], [upload/slider/1.jpg, large]"
                          alt=""/>
-                    <div class="slider-list_item__info">
+                    <!-- <div class="slider-list_item__info">
                         <div class="hide-for-small-only name">
                             <span><i>Заводские белорусские кухни</i></span><span><i>«Оптима» в Караганде </i></span>
                         </div>
@@ -134,12 +134,45 @@
                         <div class="show-for-small-only desc">
                             <span><i>с гарантией</i></span><span><i>от производителя</i></span><span><i>до 10 лет</i></span>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="slider-list_item">
                     <img class="slider-list_item__img"
                          data-interchange="[upload/slider/2-min.jpg, small], [upload/slider/2.jpg, medium], [upload/slider/2.jpg, large]"
                          alt=""/>
+                    <div class="slider-list_item__info">
+                        <div class="hide-for-small-only name">
+                            <span><i>Самые приемлемые цены,</i></span><span><i>доступнее не найдёте</i></span>
+                        </div>
+                        <div class="show-for-small-only name">
+                            <span><i>Самые приемлемые цены,</i></span><span><i>доступнее не найдёте</i></span>
+                        </div>
+                        <div class="hide-for-small-only desc">
+                            <span><i>высокое качество и гарантия от производителя</i></span>
+                        </div>
+                        <div class="show-for-small-only desc">
+                            <span><i>высокое качество и гарантия от производителя</i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-list_item">
+                    <img class="slider-list_item__img"
+                         data-interchange="[upload/slider/3-min.jpg, small], [upload/slider/3.jpg, medium], [upload/slider/3.jpg, large]"
+                         alt=""/>
+                    <div class="slider-list_item__info">
+                        <div class="hide-for-small-only name">
+                            <span><i>Обновите старые мойки</i></span><span><i>на новые из камня</i></span>
+                        </div>
+                        <div class="show-for-small-only name">
+                            <span><i>Обновите старые мойки</i></span><span><i>на новые из камня</i></span></span>
+                        </div>
+                        <div class="hide-for-small-only desc">
+                            <span><i>выберите цвет мойки под свой интерьер</i></span>
+                        </div>
+                        <div class="show-for-small-only desc">
+                            <span><i>выберите цвет мойки под свой интерьер</i></span>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="hide-for-small-only slider-arrow">
@@ -153,14 +186,14 @@
             <div class="large-12 medium-12 small-12 column">
                 <div class="advantage">
                     <div class="advantage-list">
-                        <div class="row large-up-4 medium-up-4 small-up-2">
+                        <div class="row">
                             <div class="column">
                                 <div class="advantage-list_item">
                                     <div class="img">
                                         <img src="img/a-1.svg" alt=""/>
                                     </div>
                                     <div class="name">
-                                        материалы<br> только Европа
+                                        мойки в стиле<br>вашей кухни
                                     </div>
                                 </div>
                             </div>
@@ -170,10 +203,13 @@
                                         <img src="img/a-2.svg" alt=""/>
                                     </div>
                                     <div class="name">
-                                        стильный и<br/>
-                                        современный дизайн
+                                        содержание натурал.<br>мрамора 80%
                                     </div>
                                 </div>
+                            </div>
+                            <div class="column column_button">
+                                <a href="#order" class="button button--large" data-smooth-scroll><i
+                                            class="icon-click"></i>Оставить заявку</a>
                             </div>
                             <div class="column">
                                 <div class="advantage-list_item">
@@ -182,7 +218,7 @@
                                     </div>
                                     <div class="name">
                                         производство<br/>
-                                        Белоруссия
+                                        Россия
                                     </div>
                                 </div>
                             </div>
@@ -192,31 +228,66 @@
                                         <img src="img/a-4.svg" alt=""/>
                                     </div>
                                     <div class="name">
-                                        25% скидка на всю технику
-                                        <span class="hide-for-small-only">,<br/> мойки и кам. столешницы</span>
+                                        Гарантия 1 год от<br>производителя
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <a href="#order" class="button button--large" data-smooth-scroll><i
-                                class="icon-click"></i>Оставить заявку</a>
                 </div>
             </div>
         </div>
     </div>
     <div id="product" class="page-section page-section--small page-section--product" data-magellan-target="product">
+
         <div class="row">
             <div class="large-12 medium-12 small-12 column">
                 <div class="page-section_title">
-                    <h2>Каталог «Оптимакухни»</h2>
-                    <h4>из предложенных вариантов вы обязательно найдете свою кухню</h4>
+                    <h2>Каталог кухонных моек «Novell»</h2>
+                    <h4>Уникальные свойства «Саянского мрамора», лучшие синтетические материалы и разработки в области полимеров.</h4>
                 </div>
                 <div class="product">
-                    <? include($_SERVER['DOCUMENT_ROOT'] . '/dev/products.php') ?>
+                    <? include($_SERVER['DOCUMENT_ROOT'] . '/dev/products_novell.php') ?>
                 </div>
             </div>
         </div>
+
+        <div class="row">
+            <div class="large-12 medium-12 small-12 column">
+                <div class="page-section_title">
+                    <h2>Каталог кухонных моек «Granicom»</h2>
+                    <h4>Материал «Granilit» c монолитным антибактериальным покрытием</h4>
+                </div>
+                <div class="product">
+                    <? include($_SERVER['DOCUMENT_ROOT'] . '/dev/products_granicom.php') ?>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="large-12 medium-12 small-12 column">
+                <div class="page-section_title">
+                    <h2>Мойки собственного бренда «Milani» от компании «Марбакс Русланд»</h2>
+                    <h4>Литой камень МАRRВАХХ® является композицией на основе натурального молотого гранита, мрамора или кварца 80%</h4>
+                </div>
+                <div class="product">
+                    <? include($_SERVER['DOCUMENT_ROOT'] . '/dev/products_milani.php') ?>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="large-12 medium-12 small-12 column">
+                <div class="page-section_title">
+                    <h2>Смесители в цвет моек</h2>
+                    <h4>Выбирайте смесители к вашим мойкам по цвету и стилю</h4>
+                </div>
+                <div class="product">
+                    <? include($_SERVER['DOCUMENT_ROOT'] . '/dev/products_tap-water.php') ?>
+                </div>
+            </div>
+        </div>
+
     </div>
     <div id="offer" class="page-section page-section--small page-section--offer">
         <div class="row">
