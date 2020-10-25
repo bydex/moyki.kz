@@ -289,15 +289,24 @@
         </div>
 
     </div>
-    <div id="offer" class="page-section page-section--small page-section--offer">
+    <div id="offer" class="page-section page-section--large page-section--offer">
         <div class="row">
             <div class="large-12 medium-12 small-12 column">
                 <div class="page-section_title">
-                    <h2>Выбери свой цвет «Оптимакухни»</h2>
-                    <h4>Самые стильные, модные и экологичные варианты</h4>
+                    <h2>Выберите мойку своего цвета</h2>
+                    <h4>Более 5 разнообразных цветовых решений</h4>
                 </div>
                 <div class="offer">
-                    <? include($_SERVER['DOCUMENT_ROOT'] . '/dev/offers.php') ?>
+                    <div class="row small-align-center">
+                        <div class="large-6">
+                            <? include($_SERVER['DOCUMENT_ROOT'] . '/dev/offers.php') ?>
+                        </div>
+                        <div class="offer__button-wrapper large-12 small-text-center">
+                            <a href="javascript:;" class="button button--blue" data-open="modal-callback" aria-controls="modal-callback" aria-haspopup="true" tabindex="0">
+                                Заказать звонок
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -306,14 +315,14 @@
         <div class="row">
             <div class="large-12 medium-12 small-12 column">
                 <div class="page-section_title">
-                    <h2>Поможем выбрать именно вашу кухню</h2>
-                    <h4>Есть варианты кухонь в стиле минимализм, хайтек, модерн</h4>
+                    <h2>Поможем выбрать именно вашу кухонную мойку</h2>
+                    <h4>Есть варианты  моек разных цветов, размеров, стилей</h4>
                 </div>
                 <div class="order">
                     <div class="row">
                         <div class="show-for-large large-expand column">
                             <div class="order-img">
-                                <img src="img/order-notebook.png" alt=""/>
+                                <img src="img/order-moyka.png" alt=""/>
                             </div>
                         </div>
                         <div class="large-shrink medium-shrink small-12 large-order-1 medium-order-1 small-order-2 column">
@@ -326,41 +335,31 @@
                             <div class="order-list">
                                 <div class="order-list_item">
                                     <div class="img">
-                                        <img src="img/a-5.svg" alt=""/>
+                                        <img src="img/a-request-1.svg" alt=""/>
                                     </div>
                                     <div class="name">
-                                        25% скидка на всю<br/>
-                                        технику, мойки и<br/>
+                                        10% скидка на всю<br>
+                                        технику, мебель и<br>
                                         каменные столешницы
                                     </div>
                                 </div>
                                 <div class="order-list_item">
                                     <div class="img">
-                                        <img src="img/a-6.svg" alt=""/>
+                                        <img src="img/a-request-2.svg" alt=""/>
                                     </div>
                                     <div class="name">
-                                        Бесплатный<br/>
-                                        дизайн-проект
+                                        Большой выбор цветов<br>
+                                        под любой интерьер
                                     </div>
                                 </div>
                                 <div class="order-list_item">
                                     <div class="img">
-                                        <img src="img/a-7.svg" alt=""/>
+                                        <img src="img/a-request-3.svg" alt=""/>
                                     </div>
                                     <div class="name">
-                                        Бесплатный подбор<br/>
-                                        материалов под ваш<br/>
-                                        бюджет и пожелания
-                                    </div>
-                                </div>
-                                <div class="order-list_item">
-                                    <div class="img">
-                                        <img src="img/a-8.svg" alt=""/>
-                                    </div>
-                                    <div class="name">
-                                        Точные сроки<br/>
-                                        изготовления, доставки<br/>
-                                        и сборки кухни
+                                        Современные и<br>
+                                        красивые мойки для<br>
+                                        кухни
                                     </div>
                                 </div>
                             </div>
@@ -374,8 +373,8 @@
         <div class="row">
             <div class="large-12 medium-12 small-12 column">
                 <div class="page-section_title">
-                    <h2>При покупке кухни «Оптима»</h2>
-                    <h4>Вы получаете скидку 25% на всю технику, на мойки и на столешницы от компании «ВашаМебель»</h4>
+                    <h2>При покупке кухонной мойки на «MOYKI.KZ»</h2>
+                    <h4>Вы получаете скидку 10% на всю технику, на мебель и на столешницы от компании «ВашаМебель»</h4>
                 </div>
                 <div class="stock">
                     <div class="stock-img">
@@ -394,64 +393,99 @@
         <div class="row">
             <div class="large-12 medium-12 small-12 column">
                 <div class="page-section_title">
-                    <h2>«Оптима» — современный бренд кухонь</h2>
-                    <h4>Европейские комплектующие и белорусские материалы</h4>
+                    <h2> «Moyki.kz» — магазин кухонных моек №1 в Караганде</h2>
+                    <h4>Мойки брендов Granicom, Novell и Milani имеют ряд следующих преимуществ:</h4>
                 </div>
                 <div class="stock">
-                    <div class="stock-list">
-                        <div class="row large-up-4 medium-up-2 small-up-1">
+                    <div class="stock-list row">
                             <div class="column">
                                 <div class="stock-list_item">
                                     <div class="img">
                                         <div class="img-container">
-                                            <img src="img/stock-1.png" alt=""/>
+                                            <img src="img/stock-1.jpg" alt=""/>
                                         </div>
                                     </div>
-                                    <div class="name">Качество</div>
-                                    <div class="desc">Наши материалы высокого качества, а фурнитура от ведущих
-                                        европейских
-                                        производителей
-                                    </div>
+                                    <div class="name">Устойчивость к царапинам</div>
+                                    <div class="desc">Благодаря содержанию 80% мрамора мойки почти невозможно поцарапать.</div>
                                 </div>
                             </div>
                             <div class="column">
                                 <div class="stock-list_item">
                                     <div class="img">
                                         <div class="img-container">
-                                            <img src="img/stock-2.png" alt=""/>
+                                            <img src="img/stock-2.jpg" alt=""/>
                                         </div>
                                     </div>
-                                    <div class="name">Сборка кухни</div>
-                                    <div class="desc">Соберем кухню в день доставки. После установки кухни вынесем весь
-                                        мусор
-                                    </div>
+                                    <div class="name">Устойчивость к высоким t°</div>
+                                    <div class="desc">Мойка может выдержать влияние высокой температуры 100°С – более чем 3000 раз.</div>
                                 </div>
                             </div>
                             <div class="column">
                                 <div class="stock-list_item">
                                     <div class="img">
                                         <div class="img-container">
-                                            <img src="img/stock-3.png" alt=""/>
+                                            <img src="img/stock-3.jpg" alt=""/>
                                         </div>
                                     </div>
-                                    <div class="name">Готовые решения</div>
-                                    <div class="desc">Стильные и современные готовые решения кухонь по адекватным ценам
-                                    </div>
+                                    <div class="name">Адаптированные к кухне</div>
+                                    <div class="desc">Чистка: немного воды и губка – достаточно для чистки мойки.</div>
                                 </div>
                             </div>
                             <div class="column">
                                 <div class="stock-list_item">
                                     <div class="img">
                                         <div class="img-container">
-                                            <img src="img/stock-4.png" alt=""/>
+                                            <img src="img/stock-4.jpg" alt=""/>
                                         </div>
                                     </div>
-                                    <div class="name">Большой выбор</div>
-                                    <div class="desc">Предлагаем огромный выбор материалов, фурнитуры и цветов для кухни
-                                    </div>
+                                    <div class="name">Удобные в использовании</div>
+                                    <div class="desc">Приглушенные звуки, теплая поверхность, элегантный и функциональный дизайн, прочность; мойки «Novell» очень удобные в эксплуатации.</div>
                                 </div>
                             </div>
-                        </div>
+                            <div class="column">
+                                <div class="stock-list_item">
+                                    <div class="img">
+                                        <div class="img-container">
+                                            <img src="img/stock-5.jpg" alt=""/>
+                                        </div>
+                                    </div>
+                                    <div class="name">Устойчивость к ультрафиолету</div>
+                                    <div class="desc">Превосходная устойчивость к ультрафиолету гарантирует длительное сохранение цвета.</div>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="stock-list_item">
+                                    <div class="img">
+                                        <div class="img-container">
+                                            <img src="img/stock-6.jpg" alt=""/>
+                                        </div>
+                                    </div>
+                                    <div class="name">Устойчивость к хим. средствам</div>
+                                    <div class="desc">Устойчивы к кислотам, основаниям, хлорированной воде и почти ко всем видам химикатов.</div>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="stock-list_item">
+                                    <div class="img">
+                                        <div class="img-container">
+                                            <img src="img/stock-7.jpg" alt=""/>
+                                        </div>
+                                    </div>
+                                    <div class="name">Устойчивость к ударам</div>
+                                    <div class="desc">Превосходная устойчивость к ударам. Шар весом 2,5 кг., брошенный с высоты 60 см., не оставляет никаких повреждений.</div>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="stock-list_item">
+                                    <div class="img">
+                                        <div class="img-container">
+                                            <img src="img/stock-8.jpg" alt=""/>
+                                        </div>
+                                    </div>
+                                    <div class="name">Гигиеничность</div>
+                                    <div class="desc">Мойки очень гладкие, без пор и полностью гигиеничны. </div>
+                                </div>
+                            </div>
                     </div>
                 </div>
             </div>

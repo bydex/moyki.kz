@@ -11,153 +11,489 @@ $offers = [
         'price' => '168 000',
         'images' => [
             [
+                'name' => 'Цвет «Сахара»',
                 'img' => 'upload/offers/1/img-1.jpg',
-                'color' => 'upload/offers/1/color-1.jpg'
+                'color' => 'upload/offers/colors/color-1.jpg'
             ],
             [
+                'name' => 'Цвет «Марокко»',
                 'img' => 'upload/offers/1/img-2.jpg',
-                'color' => 'upload/offers/1/color-2.jpg'
+                'color' => 'upload/offers/colors/color-2.jpg'
             ],
             [
+                'name' => 'Цвет «Терра»',
                 'img' => 'upload/offers/1/img-3.jpg',
-                'color' => 'upload/offers/1/color-3.jpg'
+                'color' => 'upload/offers/colors/color-3.jpg'
             ],
             [
+                'name' => 'Цвет «Белый»',
                 'img' => 'upload/offers/1/img-4.jpg',
-                'color' => 'upload/offers/1/color-4.jpg'
-            ]
+                'color' => 'upload/offers/colors/color-4.jpg'
+            ],
+            [
+                'name' => 'Цвет «Терракот»',
+                'img' => 'upload/offers/1/img-5.jpg',
+                'color' => 'upload/offers/colors/color-5.jpg'
+            ],
+            [
+                'name' => 'Цвет «Антрацит»',
+                'img' => 'upload/offers/1/img-6.jpg',
+                'color' => 'upload/offers/colors/color-6.jpg'
+            ],
+            [
+                'name' => 'Цвет «Серый»',
+                'img' => 'upload/offers/1/img-7.jpg',
+                'color' => 'upload/offers/colors/color-7.jpg'
+            ],
+            [
+                'name' => 'Цвет «Латте»',
+                'img' => 'upload/offers/1/img-8.jpg',
+                'color' => 'upload/offers/colors/color-8.jpg'
+            ],
+            [
+                'name' => 'Цвет «Графит»',
+                'img' => 'upload/offers/1/img-9.jpg',
+                'color' => 'upload/offers/colors/color-9.jpg'
+            ],
+            [
+                'name' => 'Цвет «Обсидиан»',
+                'img' => 'upload/offers/1/img-10.jpg',
+                'color' => 'upload/offers/colors/color-10.jpg'
+            ],
         ],
     ],
     2 => [
-        'name' => 'Кухни с фасадами из ДСП, покрытого пластиком',
-        'desc' => 'Кухня с пластиковыми фасадами – самое лучшее решение для семьи с маленькими детишками. Ваши любознательные малыши с огромным удовольствием готовы помочь маме на кухне? Еда для них – это каждый раз интересное приключение, полное веселья и забавы? А вы после этого вынуждены ежедневно чистить и мыть все вокруг, потому что для детей, как, впрочем, и для взрослых очень важна гигиена? С кухней из пластика уборка займет у вас минимум затрат и времени. Пластик, используемый для производства таких фасадов, надежен в эксплуатации и достаточно устойчив к различным повреждениям. За ним легко ухаживать, используя обычные моющие средства. А большой выбор расцветок позволит создать кухню для любого интерьера.',
+        'name' => 'Кухни с фасадами из ламинированного ДСП',
+        'desc' => 'Вы стали счастливым обладателем собственного жилья и начали подыскивать новую мебель? Вас смущает тот факт, что в нынешней финансовой ситуации придется выбирать между кухней и спальней? Не знаете чему отдать приоритет? Кухни из ЛДСП, которые входят в новую серию «ОПТИМА» значительно сэкономят ваш бюджет для других важных покупок. Современное ламинированное ДСП – это качественный и безопасный материал, который мы оклеиваем кромкой ПВХ, что делает кухню из него долговечной при невысоких затратах. Выбирая из порядка 30 расцветок, вы можете создать свою ОПТИМАльную комбинацию фасадов, как из модных, так и из классических цветов и фактур.',
         'props' => [
-            'Фасады' => 'ДСП/Пластик',
+            'Фасады' => 'ЛДСП',
             'Столешница' => 'ДСП/Пластик, 38мм',
-            'Ручки' => 'Rejs 10-04 (222,320мм)'
+            'Ручки' => 'Gamet U-06'
         ],
-        'price' => '208 500',
+        'price' => '168 000',
         'images' => [
             [
+                'name' => 'Цвет «Сахара»',
                 'img' => 'upload/offers/2/img-1.jpg',
-                'color' => 'upload/offers/2/color-1.jpg'
+                'color' => 'upload/offers/colors/color-1.jpg'
             ],
             [
+                'name' => 'Цвет «Марокко»',
                 'img' => 'upload/offers/2/img-2.jpg',
-                'color' => 'upload/offers/2/color-2.jpg'
+                'color' => 'upload/offers/colors/color-2.jpg'
             ],
             [
+                'name' => 'Цвет «Терра»',
                 'img' => 'upload/offers/2/img-3.jpg',
-                'color' => 'upload/offers/2/color-3.jpg'
+                'color' => 'upload/offers/colors/color-3.jpg'
             ],
             [
+                'name' => 'Цвет «Белый»',
                 'img' => 'upload/offers/2/img-4.jpg',
-                'color' => 'upload/offers/2/color-4.jpg'
-            ]
+                'color' => 'upload/offers/colors/color-4.jpg'
+            ],
+            [
+                'name' => 'Цвет «Терракот»',
+                'img' => 'upload/offers/2/img-5.jpg',
+                'color' => 'upload/offers/colors/color-5.jpg'
+            ],
+            [
+                'name' => 'Цвет «Антрацит»',
+                'img' => 'upload/offers/2/img-6.jpg',
+                'color' => 'upload/offers/colors/color-6.jpg'
+            ],
+            [
+                'name' => 'Цвет «Серый»',
+                'img' => 'upload/offers/2/img-7.jpg',
+                'color' => 'upload/offers/colors/color-7.jpg'
+            ],
+            [
+                'name' => 'Цвет «Латте»',
+                'img' => 'upload/offers/2/img-8.jpg',
+                'color' => 'upload/offers/colors/color-8.jpg'
+            ],
+            [
+                'name' => 'Цвет «Графит»',
+                'img' => 'upload/offers/2/img-9.jpg',
+                'color' => 'upload/offers/colors/color-9.jpg'
+            ],
+            [
+                'name' => 'Цвет «Обсидиан»',
+                'img' => 'upload/offers/2/img-10.jpg',
+                'color' => 'upload/offers/colors/color-10.jpg'
+            ],
         ],
     ],
     3 => [
-        'name' => 'Кухни с фасадами из крашеного МДФ',
-        'desc' => 'Вы - творческая натура, и всегда чувствовали, что в глубине души вы немножечко дизайнер, и мечтаете о современной интересной кухне по разумной цене. При этом из всей цветовой палитры пластиков и других материалов вы не можете выбрать тот самый ваш ОПТИМАльный цвет? В этом случае вам следует обратить внимание на кухни с фасадами, покрытыми эмалью. Вы можете выбирать для своей кухни любой цвет из палитры RAL или ZOV, создавая любые решения, начиная монохромными, заканчивая модным градиентом. Эффектный матовый финиш фасада произведёт шикарное впечатление на ваших гостей, сэкономив при этом ваш бюджет.',
+        'name' => 'Кухни с фасадами из ламинированного ДСП',
+        'desc' => 'Вы стали счастливым обладателем собственного жилья и начали подыскивать новую мебель? Вас смущает тот факт, что в нынешней финансовой ситуации придется выбирать между кухней и спальней? Не знаете чему отдать приоритет? Кухни из ЛДСП, которые входят в новую серию «ОПТИМА» значительно сэкономят ваш бюджет для других важных покупок. Современное ламинированное ДСП – это качественный и безопасный материал, который мы оклеиваем кромкой ПВХ, что делает кухню из него долговечной при невысоких затратах. Выбирая из порядка 30 расцветок, вы можете создать свою ОПТИМАльную комбинацию фасадов, как из модных, так и из классических цветов и фактур.',
         'props' => [
-            'Фасады' => 'Система ZOV 246',
+            'Фасады' => 'ЛДСП',
             'Столешница' => 'ДСП/Пластик, 38мм',
-            'Ручки' => 'Gamet 29-06'
+            'Ручки' => 'Gamet U-06'
         ],
-        'price' => '214 800',
+        'price' => '168 000',
         'images' => [
             [
+                'name' => 'Цвет «Сахара»',
                 'img' => 'upload/offers/3/img-1.jpg',
-                'color' => 'upload/offers/3/color-1.jpg'
+                'color' => 'upload/offers/colors/color-1.jpg'
             ],
             [
+                'name' => 'Цвет «Марокко»',
                 'img' => 'upload/offers/3/img-2.jpg',
-                'color' => 'upload/offers/3/color-2.jpg'
+                'color' => 'upload/offers/colors/color-2.jpg'
             ],
             [
+                'name' => 'Цвет «Терра»',
                 'img' => 'upload/offers/3/img-3.jpg',
-                'color' => 'upload/offers/3/color-3.jpg'
+                'color' => 'upload/offers/colors/color-3.jpg'
             ],
             [
+                'name' => 'Цвет «Белый»',
                 'img' => 'upload/offers/3/img-4.jpg',
-                'color' => 'upload/offers/3/color-4.jpg'
-            ]
+                'color' => 'upload/offers/colors/color-4.jpg'
+            ],
+            [
+                'name' => 'Цвет «Терракот»',
+                'img' => 'upload/offers/3/img-5.jpg',
+                'color' => 'upload/offers/colors/color-5.jpg'
+            ],
+            [
+                'name' => 'Цвет «Антрацит»',
+                'img' => 'upload/offers/3/img-6.jpg',
+                'color' => 'upload/offers/colors/color-6.jpg'
+            ],
+            [
+                'name' => 'Цвет «Серый»',
+                'img' => 'upload/offers/3/img-7.jpg',
+                'color' => 'upload/offers/colors/color-7.jpg'
+            ],
+            [
+                'name' => 'Цвет «Латте»',
+                'img' => 'upload/offers/3/img-8.jpg',
+                'color' => 'upload/offers/colors/color-8.jpg'
+            ],
+            [
+                'name' => 'Цвет «Графит»',
+                'img' => 'upload/offers/3/img-9.jpg',
+                'color' => 'upload/offers/colors/color-9.jpg'
+            ],
+            [
+                'name' => 'Цвет «Обсидиан»',
+                'img' => 'upload/offers/3/img-10.jpg',
+                'color' => 'upload/offers/colors/color-10.jpg'
+            ],
         ],
     ],
     4 => [
-        'name' => 'Кухни с фасадами из МДФ, покрытого пленкой ПВХ',
-        'desc' => 'Для покупателей, которым не безразличны проблемы экологии, но в то же время кто не представляет свою кухню без красивейших древесных фактур, ОПТИМАльным решением будут кухни с фасадами из МДФ, покрытого пленкой ПВХ с имитацией различных пород древесины – тика, ясеня, палисандра. Благородная лаконичная красота древесного рисунка уже сама не требует больших усилий для создания современного интересного дизайна, а новое поколение немецких пленок ПВХ, устойчивых к воздействию температуры и яркого солнечного света, используемых для производства данных фасадов, позволит вам получить надежную кухню на многие годы.',
+        'name' => 'Кухни с фасадами из ламинированного ДСП',
+        'desc' => 'Вы стали счастливым обладателем собственного жилья и начали подыскивать новую мебель? Вас смущает тот факт, что в нынешней финансовой ситуации придется выбирать между кухней и спальней? Не знаете чему отдать приоритет? Кухни из ЛДСП, которые входят в новую серию «ОПТИМА» значительно сэкономят ваш бюджет для других важных покупок. Современное ламинированное ДСП – это качественный и безопасный материал, который мы оклеиваем кромкой ПВХ, что делает кухню из него долговечной при невысоких затратах. Выбирая из порядка 30 расцветок, вы можете создать свою ОПТИМАльную комбинацию фасадов, как из модных, так и из классических цветов и фактур.',
         'props' => [
-            'Фасады' => 'МДФ/ПВХ (Система-эко)',
-            'Столешница' => 'ДСП/Пластик',
-            'Ручки' => 'Gamet 08-04 (128мм)'
+            'Фасады' => 'ЛДСП',
+            'Столешница' => 'ДСП/Пластик, 38мм',
+            'Ручки' => 'Gamet U-06'
         ],
-        'price' => '179 500',
+        'price' => '168 000',
         'images' => [
             [
+                'name' => 'Цвет «Сахара»',
                 'img' => 'upload/offers/4/img-1.jpg',
-                'color' => 'upload/offers/4/color-1.jpg'
+                'color' => 'upload/offers/colors/color-1.jpg'
             ],
             [
+                'name' => 'Цвет «Марокко»',
                 'img' => 'upload/offers/4/img-2.jpg',
-                'color' => 'upload/offers/4/color-2.jpg'
+                'color' => 'upload/offers/colors/color-2.jpg'
             ],
             [
+                'name' => 'Цвет «Терра»',
                 'img' => 'upload/offers/4/img-3.jpg',
-                'color' => 'upload/offers/4/color-3.jpg'
+                'color' => 'upload/offers/colors/color-3.jpg'
             ],
             [
+                'name' => 'Цвет «Белый»',
                 'img' => 'upload/offers/4/img-4.jpg',
-                'color' => 'upload/offers/4/color-4.jpg'
-            ]
+                'color' => 'upload/offers/colors/color-4.jpg'
+            ],
+            [
+                'name' => 'Цвет «Терракот»',
+                'img' => 'upload/offers/4/img-5.jpg',
+                'color' => 'upload/offers/colors/color-5.jpg'
+            ],
+            [
+                'name' => 'Цвет «Антрацит»',
+                'img' => 'upload/offers/4/img-6.jpg',
+                'color' => 'upload/offers/colors/color-6.jpg'
+            ],
+            [
+                'name' => 'Цвет «Серый»',
+                'img' => 'upload/offers/4/img-7.jpg',
+                'color' => 'upload/offers/colors/color-7.jpg'
+            ],
+            [
+                'name' => 'Цвет «Латте»',
+                'img' => 'upload/offers/4/img-8.jpg',
+                'color' => 'upload/offers/colors/color-8.jpg'
+            ],
+            [
+                'name' => 'Цвет «Графит»',
+                'img' => 'upload/offers/4/img-9.jpg',
+                'color' => 'upload/offers/colors/color-9.jpg'
+            ],
+            [
+                'name' => 'Цвет «Обсидиан»',
+                'img' => 'upload/offers/4/img-10.jpg',
+                'color' => 'upload/offers/colors/color-10.jpg'
+            ],
         ],
     ],
     5 => [
-        'name' => 'Кухни с фасадами из рамочного МДФ',
-        'desc' => 'Кухни c фасадами из рамочного МДФ – это ОПТИМАльный вариант для клиентов, которым не чужды современные тенденции, но, в тоже время, не готовых сразу отказаться от классических решений в пользу ультрамодного дизайна. Рамочные фасады из профиля МДФ, окутанного полипропиленовой пленкой, уже по праву считаются модной классикой и по своим эксплуатационным характеристикам стоят в одном ряду с кухнями из других высококачественных материалов. Прямые линии фасадов, рисунок и фактура которых, имитирующей натуральное дерево, позволят вам создать элегантную современную кухню, без лишней помпезности и по приятной цене.',
+        'name' => 'Кухни с фасадами из ламинированного ДСП',
+        'desc' => 'Вы стали счастливым обладателем собственного жилья и начали подыскивать новую мебель? Вас смущает тот факт, что в нынешней финансовой ситуации придется выбирать между кухней и спальней? Не знаете чему отдать приоритет? Кухни из ЛДСП, которые входят в новую серию «ОПТИМА» значительно сэкономят ваш бюджет для других важных покупок. Современное ламинированное ДСП – это качественный и безопасный материал, который мы оклеиваем кромкой ПВХ, что делает кухню из него долговечной при невысоких затратах. Выбирая из порядка 30 расцветок, вы можете создать свою ОПТИМАльную комбинацию фасадов, как из модных, так и из классических цветов и фактур.',
         'props' => [
-            'Фасады' => 'Система ZOV 192',
-            'Столешница' => 'ДСП/Пластик',
-            'Ручки' => 'Gamet 08-04'
+            'Фасады' => 'ЛДСП',
+            'Столешница' => 'ДСП/Пластик, 38мм',
+            'Ручки' => 'Gamet U-06'
         ],
-        'price' => '198 400',
+        'price' => '168 000',
         'images' => [
             [
+                'name' => 'Цвет «Сахара»',
                 'img' => 'upload/offers/5/img-1.jpg',
-                'color' => 'upload/offers/5/color-1.jpg'
+                'color' => 'upload/offers/colors/color-1.jpg'
             ],
             [
+                'name' => 'Цвет «Марокко»',
                 'img' => 'upload/offers/5/img-2.jpg',
-                'color' => 'upload/offers/5/color-2.jpg'
+                'color' => 'upload/offers/colors/color-2.jpg'
             ],
             [
+                'name' => 'Цвет «Терра»',
                 'img' => 'upload/offers/5/img-3.jpg',
-                'color' => 'upload/offers/5/color-3.jpg'
+                'color' => 'upload/offers/colors/color-3.jpg'
             ],
             [
+                'name' => 'Цвет «Белый»',
                 'img' => 'upload/offers/5/img-4.jpg',
-                'color' => 'upload/offers/5/color-4.jpg'
-            ]
+                'color' => 'upload/offers/colors/color-4.jpg'
+            ],
+            [
+                'name' => 'Цвет «Терракот»',
+                'img' => 'upload/offers/5/img-5.jpg',
+                'color' => 'upload/offers/colors/color-5.jpg'
+            ],
+            [
+                'name' => 'Цвет «Антрацит»',
+                'img' => 'upload/offers/5/img-6.jpg',
+                'color' => 'upload/offers/colors/color-6.jpg'
+            ],
+            [
+                'name' => 'Цвет «Серый»',
+                'img' => 'upload/offers/5/img-7.jpg',
+                'color' => 'upload/offers/colors/color-7.jpg'
+            ],
+            [
+                'name' => 'Цвет «Латте»',
+                'img' => 'upload/offers/5/img-8.jpg',
+                'color' => 'upload/offers/colors/color-8.jpg'
+            ],
+            [
+                'name' => 'Цвет «Графит»',
+                'img' => 'upload/offers/5/img-9.jpg',
+                'color' => 'upload/offers/colors/color-9.jpg'
+            ],
+            [
+                'name' => 'Цвет «Обсидиан»',
+                'img' => 'upload/offers/5/img-10.jpg',
+                'color' => 'upload/offers/colors/color-10.jpg'
+            ],
         ],
     ],
     6 => [
-        'name' => 'Кухни с фасадами из МДФ, покрытого пленкой ПВХ, с патиной',
-        'desc' => 'Сторонников традиционных интерьерных решений наверняка заинтересует коллекция патинированных фасадов, выполненных из фрезерованного МДФ, покрытого пленкой ПВХ, которые мы смело можем назвать классикой жанра в дизайне кухонь. Кухня с такими фасадами прекрасно подчеркнет вкус ее владельца, не опустошив при этом его кошелек. Приобретая такую кухню, вы можете быть уверены, что и через 10 лет ваша кухня будет выглядеть актуально, а используемые высококачественные комплектующие и материалы обеспечат ее надежную эксплуатацию.',
+        'name' => 'Кухни с фасадами из ламинированного ДСП',
+        'desc' => 'Вы стали счастливым обладателем собственного жилья и начали подыскивать новую мебель? Вас смущает тот факт, что в нынешней финансовой ситуации придется выбирать между кухней и спальней? Не знаете чему отдать приоритет? Кухни из ЛДСП, которые входят в новую серию «ОПТИМА» значительно сэкономят ваш бюджет для других важных покупок. Современное ламинированное ДСП – это качественный и безопасный материал, который мы оклеиваем кромкой ПВХ, что делает кухню из него долговечной при невысоких затратах. Выбирая из порядка 30 расцветок, вы можете создать свою ОПТИМАльную комбинацию фасадов, как из модных, так и из классических цветов и фактур.',
         'props' => [
-            'Фасады' => 'МДФ-ПВХ',
-            'Столешница' => 'ДСП/Пластик',
-            'Ручки' => 'Kwadro-Design Фарфор'
+            'Фасады' => 'ЛДСП',
+            'Столешница' => 'ДСП/Пластик, 38мм',
+            'Ручки' => 'Gamet U-06'
         ],
-        'price' => '205 500',
+        'price' => '168 000',
         'images' => [
             [
+                'name' => 'Цвет «Сахара»',
                 'img' => 'upload/offers/6/img-1.jpg',
-                'color' => 'upload/offers/6/color-1.jpg'
+                'color' => 'upload/offers/colors/color-1.jpg'
             ],
             [
+                'name' => 'Цвет «Марокко»',
                 'img' => 'upload/offers/6/img-2.jpg',
-                'color' => 'upload/offers/6/color-2.jpg'
-            ]
+                'color' => 'upload/offers/colors/color-2.jpg'
+            ],
+            [
+                'name' => 'Цвет «Терра»',
+                'img' => 'upload/offers/6/img-3.jpg',
+                'color' => 'upload/offers/colors/color-3.jpg'
+            ],
+            [
+                'name' => 'Цвет «Белый»',
+                'img' => 'upload/offers/6/img-4.jpg',
+                'color' => 'upload/offers/colors/color-4.jpg'
+            ],
+            [
+                'name' => 'Цвет «Терракот»',
+                'img' => 'upload/offers/6/img-5.jpg',
+                'color' => 'upload/offers/colors/color-5.jpg'
+            ],
+            [
+                'name' => 'Цвет «Антрацит»',
+                'img' => 'upload/offers/6/img-6.jpg',
+                'color' => 'upload/offers/colors/color-6.jpg'
+            ],
+            [
+                'name' => 'Цвет «Серый»',
+                'img' => 'upload/offers/6/img-7.jpg',
+                'color' => 'upload/offers/colors/color-7.jpg'
+            ],
+            [
+                'name' => 'Цвет «Латте»',
+                'img' => 'upload/offers/6/img-8.jpg',
+                'color' => 'upload/offers/colors/color-8.jpg'
+            ],
+            [
+                'name' => 'Цвет «Графит»',
+                'img' => 'upload/offers/6/img-9.jpg',
+                'color' => 'upload/offers/colors/color-9.jpg'
+            ],
+            [
+                'name' => 'Цвет «Обсидиан»',
+                'img' => 'upload/offers/6/img-10.jpg',
+                'color' => 'upload/offers/colors/color-10.jpg'
+            ],
+        ],
+    ],
+    7 => [
+        'name' => 'Кухни с фасадами из ламинированного ДСП',
+        'desc' => 'Вы стали счастливым обладателем собственного жилья и начали подыскивать новую мебель? Вас смущает тот факт, что в нынешней финансовой ситуации придется выбирать между кухней и спальней? Не знаете чему отдать приоритет? Кухни из ЛДСП, которые входят в новую серию «ОПТИМА» значительно сэкономят ваш бюджет для других важных покупок. Современное ламинированное ДСП – это качественный и безопасный материал, который мы оклеиваем кромкой ПВХ, что делает кухню из него долговечной при невысоких затратах. Выбирая из порядка 30 расцветок, вы можете создать свою ОПТИМАльную комбинацию фасадов, как из модных, так и из классических цветов и фактур.',
+        'props' => [
+            'Фасады' => 'ЛДСП',
+            'Столешница' => 'ДСП/Пластик, 38мм',
+            'Ручки' => 'Gamet U-06'
+        ],
+        'price' => '168 000',
+        'images' => [
+            [
+                'name' => 'Цвет «Сахара»',
+                'img' => 'upload/offers/7/img-1.jpg',
+                'color' => 'upload/offers/colors/color-1.jpg'
+            ],
+            [
+                'name' => 'Цвет «Марокко»',
+                'img' => 'upload/offers/7/img-2.jpg',
+                'color' => 'upload/offers/colors/color-2.jpg'
+            ],
+            [
+                'name' => 'Цвет «Терра»',
+                'img' => 'upload/offers/7/img-3.jpg',
+                'color' => 'upload/offers/colors/color-3.jpg'
+            ],
+            [
+                'name' => 'Цвет «Белый»',
+                'img' => 'upload/offers/7/img-4.jpg',
+                'color' => 'upload/offers/colors/color-4.jpg'
+            ],
+            [
+                'name' => 'Цвет «Терракот»',
+                'img' => 'upload/offers/7/img-5.jpg',
+                'color' => 'upload/offers/colors/color-5.jpg'
+            ],
+            [
+                'name' => 'Цвет «Антрацит»',
+                'img' => 'upload/offers/7/img-6.jpg',
+                'color' => 'upload/offers/colors/color-6.jpg'
+            ],
+            [
+                'name' => 'Цвет «Серый»',
+                'img' => 'upload/offers/7/img-7.jpg',
+                'color' => 'upload/offers/colors/color-7.jpg'
+            ],
+            [
+                'name' => 'Цвет «Латте»',
+                'img' => 'upload/offers/7/img-8.jpg',
+                'color' => 'upload/offers/colors/color-8.jpg'
+            ],
+            [
+                'name' => 'Цвет «Графит»',
+                'img' => 'upload/offers/7/img-9.jpg',
+                'color' => 'upload/offers/colors/color-9.jpg'
+            ],
+            [
+                'name' => 'Цвет «Обсидиан»',
+                'img' => 'upload/offers/7/img-10.jpg',
+                'color' => 'upload/offers/colors/color-10.jpg'
+            ],
+        ],
+    ],
+    8 => [
+        'name' => 'Кухни с фасадами из ламинированного ДСП',
+        'desc' => 'Вы стали счастливым обладателем собственного жилья и начали подыскивать новую мебель? Вас смущает тот факт, что в нынешней финансовой ситуации придется выбирать между кухней и спальней? Не знаете чему отдать приоритет? Кухни из ЛДСП, которые входят в новую серию «ОПТИМА» значительно сэкономят ваш бюджет для других важных покупок. Современное ламинированное ДСП – это качественный и безопасный материал, который мы оклеиваем кромкой ПВХ, что делает кухню из него долговечной при невысоких затратах. Выбирая из порядка 30 расцветок, вы можете создать свою ОПТИМАльную комбинацию фасадов, как из модных, так и из классических цветов и фактур.',
+        'props' => [
+            'Фасады' => 'ЛДСП',
+            'Столешница' => 'ДСП/Пластик, 38мм',
+            'Ручки' => 'Gamet U-06'
+        ],
+        'price' => '168 000',
+        'images' => [
+            [
+                'name' => 'Цвет «Сахара»',
+                'img' => 'upload/offers/8/img-1.jpg',
+                'color' => 'upload/offers/colors/color-1.jpg'
+            ],
+            [
+                'name' => 'Цвет «Марокко»',
+                'img' => 'upload/offers/8/img-2.jpg',
+                'color' => 'upload/offers/colors/color-2.jpg'
+            ],
+            [
+                'name' => 'Цвет «Терра»',
+                'img' => 'upload/offers/8/img-3.jpg',
+                'color' => 'upload/offers/colors/color-3.jpg'
+            ],
+            [
+                'name' => 'Цвет «Белый»',
+                'img' => 'upload/offers/8/img-4.jpg',
+                'color' => 'upload/offers/colors/color-4.jpg'
+            ],
+            [
+                'name' => 'Цвет «Терракот»',
+                'img' => 'upload/offers/8/img-5.jpg',
+                'color' => 'upload/offers/colors/color-5.jpg'
+            ],
+            [
+                'name' => 'Цвет «Антрацит»',
+                'img' => 'upload/offers/8/img-6.jpg',
+                'color' => 'upload/offers/colors/color-6.jpg'
+            ],
+            [
+                'name' => 'Цвет «Серый»',
+                'img' => 'upload/offers/8/img-7.jpg',
+                'color' => 'upload/offers/colors/color-7.jpg'
+            ],
+            [
+                'name' => 'Цвет «Латте»',
+                'img' => 'upload/offers/8/img-8.jpg',
+                'color' => 'upload/offers/colors/color-8.jpg'
+            ],
+            [
+                'name' => 'Цвет «Графит»',
+                'img' => 'upload/offers/8/img-9.jpg',
+                'color' => 'upload/offers/colors/color-9.jpg'
+            ],
+            [
+                'name' => 'Цвет «Обсидиан»',
+                'img' => 'upload/offers/8/img-10.jpg',
+                'color' => 'upload/offers/colors/color-10.jpg'
+            ],
         ],
     ],
 ]
@@ -166,53 +502,19 @@ $offers = [
 <div id="dev_offer_slider" class="offer-list">
     <? foreach ($offers as $offer): ?>
         <div class="offer-list_item">
-            <div class="row">
-                <div class="large-7 medium-7 small-12 column">
-                    <div class="offer-list_item__img">
-                        <div class="dev_color_slider img-list">
-                            <? foreach ($offer['images'] as $key => $image): ?>
-                                <a href="<?= trim($image['img']) ?>" class="img-list_item"
-                                   data-lightbox="group-<?= $key + 1 ?>"
-                                   data-color-path="<?= trim($image['color']) ?>">
-                                    <img src="<?= trim($image['img']) ?>" alt="<?= trim($offer['name']) ?>"/>
-                                </a>
-                            <? endforeach; ?>
-                        </div>
+            <div class="offer-list_item__img">
+                <div class="dev_color_slider img-list">
+                    <? foreach ($offer['images'] as $key => $image): ?>
+                        <a href="<?= trim($image['img']) ?>" class="img-list_item"
+                            data-lightbox="group-<?= $key + 1 ?>"
+                            data-color-path="<?= trim($image['color']) ?>"
+                            data-color-name="<?= trim($image['name']) ?>">
+                            <img src="<?= trim($image['img']) ?>" alt="<?= trim($offer['name']) ?>"/>
+                        </a>
+                        <? endforeach; ?>
                     </div>
                 </div>
-                <div class="large-5 medium-5 smal-12 column">
-                    <div class="offer-list_item__info">
-                        <div class="hide-for-small-only stock"></div>
-                        <div class="name"><?= trim($offer['name']) ?></div>
-                        <table class="prop-table">
-                            <? foreach ($offer['props'] as $key => $prop): ?>
-                                <tr>
-                                    <td><?= trim($key) ?></td>
-                                    <td class="divider">-</td>
-                                    <td><?= trim($prop) ?></td>
-                                </tr>
-                            <? endforeach; ?>
-                        </table>
-                        <div class="price">
-                            <span><?= trim($offer['price']) ?> тг</span>
-                            <i>цена кухни на фото</i>
-                        </div>
-                        <div class="desc">
-                            <div class="desc-cut">
-                                <?= trim($offer['desc']) ?>
-                            </div>
-                            <a href="javascript:;" class="dev_desc_toogle desc-toggle">
-                                <span>Подробнее</span>
-                            </a>
-                        </div>
-                        <div class="large-text-left medium-text-left small-text-center">
-                            <a href="javascript:;" class="dev_order_btn button"
-                               data-name="<?= trim($offer['name']) ?>"
-                               data-img="<?= trim($offer['images'][0]['img']) ?>">Купить</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <div class="name offer-list_item__color">Lorem ipsum dolor sit amet.</div>
         </div>
     <? endforeach; ?>
 </div>

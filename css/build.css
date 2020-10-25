@@ -1921,7 +1921,7 @@ html.is-reveal-open body {
 }
 
 .slick-arrow:hover {
-	background-color: #007ac2;
+	background-color: #7f7eff;
 	color: #fff
 }
 
@@ -1945,10 +1945,31 @@ html.is-reveal-open body {
 }
 
 .dev_color_slider .slick-dots {
-	position: absolute;
-	bottom: 20px;
-	margin-top: 0;
+	position: static;
+	top: 100%;
+	margin-top: 27px;
 	padding: 3px 0
+}
+.offer-list_item {
+	position: relative;
+}
+.offer-list_item img {
+	box-shadow: 0 0 30px rgba(118, 118, 117, 0.2);
+	background-color: #f0f0f0;
+}
+
+.offer-list_item__color {
+	margin-top: 20px;
+	padding-bottom: 30px;
+	font-size: 16px;
+	font-weight: 600;
+	text-align: center;
+}
+.page-section.page-section--offer .offer-list.slick-initialized > .slick-dots {
+	margin-top: 0;
+}
+.page-section.page-section--offer .offer-list.slick-initialized > .slick-list {
+	height: auto;
 }
 
 .dev_color_slider .slick-dots li {
@@ -1966,8 +1987,12 @@ html.is-reveal-open body {
 
 .dev_color_slider .slick-dots li.slick-active {
 	background-color: transparent;
-	-webkit-box-shadow: 0 0 0 3px #007ac2;
-	box-shadow: 0 0 0 3px #007ac2
+	-webkit-box-shadow: 0 0 0 3px #7f7eff;
+	box-shadow: 0 0 0 3px #7f7eff
+}
+
+.offer__button-wrapper {
+	margin-top: 30px;
 }
 
 #dev_slider+.slider-arrow .slick-arrow {
@@ -3104,13 +3129,16 @@ p {
 	display: none
 }
 
+.page-section.page-section--offer {
+    background: url(../img/tree-pattern.png) center repeat-y;
+}
+
 .page-section.page-section--offer .offer-list.slick-initialized {
 	display: block
 }
 
-.page-section.page-section--offer .offer-list_item__img {
+.page-section.page-section--offer .offer-list_item__img .img-list_item {
 	background-color: #f2f5f7;
-	height: 447px
 }
 
 .page-section.page-section--offer .offer-list_item__img .img-list {
@@ -3283,6 +3311,7 @@ p {
     padding-left: 200px;
 }
 
+
 .page-section.page-section--product .product-list_item {
 	height: calc(100% - 30px);
 	position: relative;
@@ -3423,7 +3452,7 @@ p {
 
 .page-section.page-section--order .order-form {
 	width: 360px;
-	border: 5px solid #b2d235;
+	border: 5px solid #ff6542;
 	padding: 30px
 }
 
@@ -3447,9 +3476,10 @@ p {
 
 .page-section.page-section--order .order-img img {
 	position: absolute;
-	max-width: none;
-	bottom: -82px;
-	right: -325px
+	max-width: 495px;
+    bottom: -126px;
+    right: -50px;
+	filter: drop-shadow(-20px 40px 15px rgba(0, 0, 0, 0.4));
 }
 
 .page-section.page-section--order .order-list_item {
@@ -3540,7 +3570,6 @@ p {
 .page-section.page-section--stock .stock-list {
 	text-align: center
 }
-
 .page-section.page-section--stock .stock-list_item .img {
 	position: relative;
 	margin-bottom: 20px
