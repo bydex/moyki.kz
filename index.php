@@ -531,7 +531,7 @@
                                 <div class="step-list_item">
                                     <div class="img">
                                         <div class="img-container">
-                                            <img src="img/step-1.png" alt=""/>
+                                            <img src="img/step-1.jpg" alt=""/>
                                         </div>
                                         <div class="img-step">
                                             1
@@ -546,7 +546,7 @@
                                 <div class="step-list_item">
                                     <div class="img">
                                         <div class="img-container">
-                                            <img src="img/step-2.png" alt=""/>
+                                            <img src="img/step-2.jpg" alt=""/>
                                         </div>
                                         <div class="img-step">
                                             2
@@ -561,7 +561,7 @@
                                 <div class="step-list_item">
                                     <div class="img">
                                         <div class="img-container">
-                                            <img src="img/step-3.png" alt=""/>
+                                            <img src="img/step-3.jpg" alt=""/>
                                         </div>
                                         <div class="img-step">
                                             3
@@ -576,7 +576,7 @@
                                 <div class="step-list_item">
                                     <div class="img">
                                         <div class="img-container">
-                                            <img src="img/step-4.png" alt=""/>
+                                            <img src="img/step-4.jpg" alt=""/>
                                         </div>
                                         <div class="img-step">
                                             4

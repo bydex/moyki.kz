@@ -3676,7 +3676,8 @@ p {
 	-o-object-fit: cover;
 	object-fit: cover;
 	height: 100%;
-	width: 100%
+	width: 100%;
+	border-radius: 50%;
 }
 
 .page-section.page-section--step .step-list_item .img-step {
@@ -3689,7 +3690,7 @@ p {
 	width: 45px;
 	border-radius: 100%;
 	background-color: #fff;
-	color: #b2d235;
+	color: #ff6542;
 	font-weight: 700;
 	font-size: 28px;
 	line-height: 45px;
