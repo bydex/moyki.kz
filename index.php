@@ -493,11 +493,10 @@
     </div>
     <div id="production" class="page-section page-section--production" data-magellan-target="production">
         <div class="row">
-            <div class="large-6 large-offset-1 medium-10 small-12 column">
+            <div class="small-12 column">
                 <div class="page-section_title page-section_title--left">
                     <h2>Производство</h2>
-                    <h4>Бренд «Оптимакухни» зарекомендовал себя на мебельном рынке Белоруссии, России и Европы. Теперь
-                        кухни «Оптима» и в Казахстане, в частности в Караганде и в Астане</h4>
+                    <h4><b>Мы являемся официальными представителями компаний «Granicom» и «Marbax» в Казахстане.</b> Мойки «Granicom» и «Novell» производятся и поставляются из России, Республика Хакасия, г.Абакан. Мойки «Milani» производятся и поставляются также из России, г.Ульяновск, компания «Марбакс Русланд».</h4>
                 </div>
                 <div class="production">
                     <div class="production-list">
@@ -505,18 +504,13 @@
                             <div class="img">
                                 <img src="img/a-9.svg" alt=""/>
                             </div>
-                            <div class="name">Работаем на современном оборудование, которое установлено в цехах фабрики
-                                в
-                                Беларуссии. Этим гарантируем качество готовой продукции.
-                            </div>
+                            <div class="name">Кухонные мойки Granicom производятся из Саянского мрамора уже 10 лет. Содержание натурального мрамора в кухонной мойке составляет 80%. Уникальные свойства «Саянского мрамора», лучшие синтетические материалы и разработки в области полимеров, все это тесно связано в материале моек «Granicom» – «Granilit». </div>
                         </div>
                         <div class="production-list_item">
                             <div class="img">
                                 <img src="img/a-10.svg" alt=""/>
                             </div>
-                            <div class="name">Наши материалы сертифицированы и лучшие в своем сегменте. Используем
-                                комплектующие от белорусских и зарубежных поставщиков.
-                            </div>
+                            <div class="name">Продукция из литьевого камня Marbaxx обладает высокой прочностью, экологичностью, стойкостью к воздействию агрессивных сред и ультра-фиолетовому излучению, морозостойкостью и влагостойкостью, коррозийной устойчивостью, стойкостью к вибрации и истиранию, стойкостью к температурным перепадам.</div>
                         </div>
                     </div>
                 </div>
@@ -527,8 +521,8 @@
         <div class="row">
             <div class="large-12 medium-12 small-12 column">
                 <div class="page-section_title">
-                    <h2>Как мы работаем</h2>
-                    <h4>Определьно простые шаги и клиент всегда в курсе событий по своей кухне</h4>
+                    <h2>Ищем представителей по всему Казахстану</h2>
+                    <h4>Пишите или звоните насчет сотрудничества по номеру +7 700 191 30 32 (Whatsup)</h4>
                 </div>
                 <div class="step">
                     <div class="step-list">
@@ -544,7 +538,7 @@
                                         </div>
                                     </div>
                                     <div class="name">
-                                        Поможем в выборе стиля и цвета
+                                        Открыты для сотрудничества
                                     </div>
                                 </div>
                             </div>
@@ -559,7 +553,7 @@
                                         </div>
                                     </div>
                                     <div class="name">
-                                        Замер кухни
+                                        Диллерсикие цены по запросу
                                     </div>
                                 </div>
                             </div>
@@ -574,8 +568,7 @@
                                         </div>
                                     </div>
                                     <div class="name">
-                                        Расчет цены. <br/>
-                                        Договор
+                                        Большой выбор продукции в наличие
                                     </div>
                                 </div>
                             </div>
@@ -590,37 +583,7 @@
                                         </div>
                                     </div>
                                     <div class="name">
-                                        Заказ кухни со склада
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="column">
-                                <div class="step-list_item">
-                                    <div class="img">
-                                        <div class="img-container">
-                                            <img src="img/step-5.png" alt=""/>
-                                        </div>
-                                        <div class="img-step">
-                                            5
-                                        </div>
-                                    </div>
-                                    <div class="name">
-                                        Доставка кухни
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="column">
-                                <div class="step-list_item">
-                                    <div class="img">
-                                        <div class="img-container">
-                                            <img src="img/step-6.png" alt=""/>
-                                        </div>
-                                        <div class="img-step">
-                                            6
-                                        </div>
-                                    </div>
-                                    <div class="name">
-                                        Сборка кухни
+                                        Доставка <br>в любой регион РК
                                     </div>
                                 </div>
                             </div>
