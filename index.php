@@ -602,22 +602,17 @@
             <div class="large-12 medium-12 small-12 column">
                 <div class="contact">
                     <div class="contact-info">
-                        <div class="title">Кухни «Оптима»</div>
-                        <ul id="dev_contact_tabs" class="tabs" data-tabs>
-                            <li class="tabs-title is-active"><a href="#contact-panel-1" aria-selected="true">
-                                    Отдел 1</a>
-                            </li>
-                            <!--li class="tabs-title"><a data-tabs-target="contact-panel-2" href="#contact-panel-2">
-                                Отдел 2</a></li-->
-                        </ul>
+                        <div class="title">MOYKI.KZ</div>
                         <div class="tabs-content" data-tabs-content="dev_contact_tabs">
                             <div class="tabs-panel is-active" id="contact-panel-1">
-                                <a href="tel:+77001913032" class="phone">+7 (7212) 972 060</a>
+                                <a href="tel:+77759479595" class="phone">+7 (775) 947 95 95</a>
                                 <div class="address">
-                                    г.Караганда, Строймарт гипер, 137-й учетный квартал,<br/>
-                                    ст039, 1 этаж, 7 бутик
+                                    г.Караганда, Строймарт гипер, 137-й учетный квартал, ст039, 1 этаж, 7 бутик («Ваша Мебель»)
                                 </div>
-                                <a href="mailto:info@optimakuhni.kz" class="mail"><span>info@optimakuhni.kz</span></a>
+                                <div class="address">
+                                    г.Караганда, Гастелло, 30 («Moiki.kz»)
+                                </div>
+                                <a href="mailto:info@moyki.kz" class="mail"><span>info@moyki.kz</span></a>
                                 <div class="timetable">работаем ежедневно 9:00 до 20:00</div>
                             </div>
                             <!--div class="tabs-panel" id="contact-panel-2">
@@ -638,8 +633,8 @@
                 </div>
                 <div class="large-expand medium-expand small-expand column">
                     <div class="copyright">
-                        <p>© «Оптимакухни» 2018<br/>
-                            Заводские белорусские модульные кухни от производителя в Караганде и Астане
+                        <p>
+                            © Moyki.kz 2020 <br>Кухонные мойки из саянского мрамора<br>брендов Granicom, Novell и Milani
                         </p>
                         <a href="javascript:;" data-open="modal-policy">Политика конфиденциальности</a>
                     </div>

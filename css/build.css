@@ -3879,7 +3879,7 @@ p {
 .page-section.page-section--contact .contact-info .phone::before,
 .page-section.page-section--contact .contact-info .timetable::before {
 	margin-right: 10px;
-	color: #007ac2;
+	color: #7f7eff;
 	min-width: 18px;
 	font-family: icomoon
 }
