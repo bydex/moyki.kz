@@ -12,6 +12,7 @@
 </head>
 <body>
 <div class="page">
+    <a href="#header" class="to-top" data-smooth-scroll></a>
     <header id="header" class="page-header">
         <div class="header">
             <div class="header-top">
@@ -243,7 +244,18 @@
         <div class="row">
             <div class="large-12 medium-12 small-12 column">
                 <div class="page-section_title">
-                    <h2>Каталог кухонных моек «Novell»</h2>
+                    <div class="download-wrapper">
+                        <h2>Каталог кухонных моек «Novell»</h2>
+                        <a class="download-wrapper__link download-link" href="/upload/pdf/novell_katalog.pdf" download="">
+                            <span class="download-link__icon-wrapper">
+                                <img src="/img/pdf.svg" class="download-link__icon" alt="" />
+                            </span>
+                            <span class="download-link__info">
+                                <span class="dowload-link__title">Смотреть каталог</span>
+                                <span class="download-link__description">Размер pdf 115 Кб</span>
+                            </span>
+                        </a>
+                    </div>
                     <h4>Уникальные свойства «Саянского мрамора», лучшие синтетические материалы и разработки в области полимеров.</h4>
                 </div>
                 <div class="product">
@@ -255,7 +267,18 @@
         <div class="row">
             <div class="large-12 medium-12 small-12 column">
                 <div class="page-section_title">
-                    <h2>Каталог кухонных моек «Granicom»</h2>
+                    <div class="download-wrapper">
+                        <h2>Каталог кухонных моек «Granicom»</h2>
+                        <a class="download-wrapper__link download-link" href="/upload/pdf/granikom_katalog.pdf" download="">
+                            <span class="download-link__icon-wrapper">
+                                <img src="/img/pdf.svg" class="download-link__icon" alt="" />
+                            </span>
+                            <span class="download-link__info">
+                                <span class="dowload-link__title">Смотреть каталог</span>
+                                <span class="download-link__description">Размер pdf 115 Кб</span>
+                            </span>
+                        </a>
+                    </div>
                     <h4>Материал «Granilit» c монолитным антибактериальным покрытием</h4>
                 </div>
                 <div class="product">
@@ -267,7 +290,18 @@
         <div class="row">
             <div class="large-12 medium-12 small-12 column">
                 <div class="page-section_title">
-                    <h2>Мойки собственного бренда «Milani» от компании «Марбакс Русланд»</h2>
+                    <div class="download-wrapper">
+                        <h2>Мойки собственного бренда «Milani» от компании «Марбакс Русланд»</h2>
+                        <a class="download-wrapper__link download-link" href="/upload/pdf/marbax_katalog.pdf" download="">
+                            <span class="download-link__icon-wrapper">
+                                <img src="/img/pdf.svg" class="download-link__icon" alt="" />
+                            </span>
+                            <span class="download-link__info">
+                                <span class="dowload-link__title">Смотреть каталог</span>
+                                <span class="download-link__description">Размер pdf 115 Кб</span>
+                            </span>
+                        </a>
+                    </div>
                     <h4>Литой камень МАRRВАХХ® является композицией на основе натурального молотого гранита, мрамора или кварца 80%</h4>
                 </div>
                 <div class="product">
@@ -298,7 +332,7 @@
                 </div>
                 <div class="offer">
                     <div class="row small-align-center">
-                        <div class="large-6">
+                        <div class="large-6 medium-8 small-12 column">
                             <? include($_SERVER['DOCUMENT_ROOT'] . '/dev/offers.php') ?>
                         </div>
                         <div class="offer__button-wrapper large-12 small-text-center">
@@ -522,7 +556,9 @@
             <div class="large-12 medium-12 small-12 column">
                 <div class="page-section_title">
                     <h2>Ищем представителей по всему Казахстану</h2>
-                    <h4>Пишите или звоните насчет сотрудничества по номеру +7 700 191 30 32 (Whatsup)</h4>
+                    <h4>Пишите или звоните насчет сотрудничества по номеру
+                        <a class="whatsapp-link" href="tel:+77001913032"><b>+7 700 191 30 32</b> (Whatsup) <span class="whatsapp-link__icon"></span></a>
+                    </h4>
                 </div>
                 <div class="step">
                     <div class="step-list">
@@ -605,7 +641,19 @@
                         <div class="title">MOYKI.KZ</div>
                         <div class="tabs-content" data-tabs-content="dev_contact_tabs">
                             <div class="tabs-panel is-active" id="contact-panel-1">
-                                <a href="tel:+77759479595" class="phone">+7 (775) 947 95 95</a>
+                                <div class="phone">
+                                    <div>
+                                        <a class="phone__inner" href="tel:+77759479595">+7 (775) 947 95 95</a>
+                                        <div class="row">
+                                            <div class="medium-6 small-12 column">
+                                                <a class="phone__inner phone__inner_small" href="tel:+77759479595">+7 (775) 947 95 95</a>
+                                            </div>
+                                            <div class="medium-6 small-12 column">
+                                                <a class="phone__inner phone__inner_small" href="tel:+77759479595">+7 (775) 947 95 95</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                                 <div class="address">
                                     г.Караганда, Строймарт гипер, 137-й учетный квартал, ст039, 1 этаж, 7 бутик («Ваша Мебель»)
                                 </div>

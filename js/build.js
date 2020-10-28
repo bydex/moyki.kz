@@ -4187,7 +4187,31 @@ $(document).foundation(), $(document).ready(function() {
         offset: 30,
         centerPadding: '30px',
         dots: true,
-        arrows: false
+        arrows: false,
+
+        responsive: [
+            {
+                breakpoint: 960,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                }
+            },
+            {
+                breakpoint: 767,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                }
+            },
+            {
+                breakpoint: 500,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                }
+            },
+        ]
     });
 
     $(".dev_color_slider").on('afterChange init', function(event, slick, currentSlide, nextSlide) {
@@ -4301,7 +4325,7 @@ $(document).ready(function() {
             n = $(".dev_order"),
             o = n.find("#dev_order_preview");
         if (!e || "undefined" === e || !a || "undefined" === a) return !1;
-        n.foundation("open"), o.html(""), o.append('<label class="form-label">Вы выбрали кухню:</label><div class="form-preview"><img src="' + a + '" alt="' + e + '"/><span>' + e + '</span><input type="hidden" name="product_name" value="' + e + '" required/></div>')
+        n.foundation("open"), o.html(""), o.append('<label class="form-label">Вы выбрали мойку:</label><div class="form-preview"><img src="' + a + '" alt="' + e + '"/><span>' + e + '</span><input type="hidden" name="product_name" value="' + e + '" required/></div>')
     }), $('form[name="order_modal"]').on("formvalid.zf.abide", function(e, a) {
         $.ajax({
             url: "/dev/ajax/send.php",

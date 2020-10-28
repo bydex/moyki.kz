@@ -1947,6 +1947,7 @@ html.is-reveal-open body {
 .dev_color_slider .slick-dots {
 	position: static;
 	top: 100%;
+	flex-wrap: wrap;
 	margin-top: 27px;
 	padding: 3px 0
 }
@@ -1992,6 +1993,7 @@ html.is-reveal-open body {
 }
 
 .offer__button-wrapper {
+	width: 100%;
 	margin-top: 30px;
 }
 
@@ -2810,7 +2812,7 @@ p {
 	top: 0;
 	height: 100%;
 	overflow-y: auto;
-	background-color: #007ac2;
+	background-color: #767675;
 	color: #fff;
 	padding: 60px 30px 30px
 }
@@ -3080,6 +3082,34 @@ p {
   max-width: 24%;
   text-align: center;
 }
+@media (max-width: 1050px) {
+	.page-section.page-section--advantage .advantage-list .column {
+		-ms-flex: 0 0 25%;
+		-webkit-box-flex: 0;
+		flex: 0 0 25%;
+		max-width: 25%;
+	}
+	.page-section.page-section--advantage .advantage-list .column_button {
+		margin-top: 32px;
+		order: 1;
+		max-width: 100%;
+		flex: 1 0 100%;
+	}
+}
+@media (max-width: 639px) {
+	.page-section.page-section--advantage .advantage-list .column {
+		-ms-flex: 0 0 50%;
+		-webkit-box-flex: 0;
+		flex: 0 0 50%;
+		max-width: 50%;
+	}
+	.page-section.page-section--advantage .advantage-list .column_button {
+		margin-top: 0;
+		order: 1;
+		max-width: 100%;
+		flex: 1 0 100%;
+	}
+}
 
 .page-section.page-section--advantage .advantage {
 	text-align: center
@@ -3179,7 +3209,7 @@ p {
 	position: absolute;
 	right: 0;
 	top: 0;
-	border-top: 100px solid #b2d235;
+	border-top: 100px solid #32c949;
 	border-left: 100px solid transparent
 }
 
@@ -3226,7 +3256,7 @@ p {
 
 .page-section.page-section--offer .offer-list_item__info .price span {
 	display: inline-block;
-	border-bottom: 3px solid #b2d235
+	border-bottom: 3px solid #32c949
 }
 
 .page-section.page-section--offer .offer-list_item__info .price i {
@@ -3309,6 +3339,18 @@ p {
 .page-section.page-section--product h2 {
     padding-right: 200px;
     padding-left: 200px;
+}
+@media (max-width: 767px) {
+	.page-section.page-section--product h2 {
+		padding-left: 0;
+		text-align: left;
+	}
+}
+@media (max-width: 500px) {
+	.page-section.page-section--product h2 {
+		padding-right: 0;
+		text-align: center;
+	}
 }
 
 
@@ -3815,7 +3857,7 @@ p {
 	background-color: #fff;
 	-webkit-box-shadow: 0 5px 30px rgba(0, 0, 0, .3);
 	box-shadow: 0 5px 30px rgba(0, 0, 0, .3);
-	padding: 30px 40px
+	padding: 24px 40px
 }
 
 .page-section.page-section--contact .contact-info .title {
@@ -3859,9 +3901,6 @@ p {
 	border-bottom-color: transparent
 }
 
-.page-section.page-section--contact .contact-info .tabs-panel {
-	padding-top: 20px
-}
 
 .page-section.page-section--contact .contact-info .phone {
 	display: -webkit-box;
@@ -3995,7 +4034,7 @@ p {
 
 .page-footer .footer .follow-list li a.whatsapp::before {
 	content: "\e905";
-	color: #b2d235
+	color: #32c949
 }
 
 .page-footer .footer .developed a {
@@ -4010,7 +4049,7 @@ p {
 .reveal {
 	-webkit-box-shadow: 0 0 50px rgba(0, 0, 0, .6);
 	box-shadow: 0 0 50px rgba(0, 0, 0, .6);
-	background-color: #007ac2;
+	background-color: #767675;
 	color: #fff;
 	max-width: 375px;
 	padding: 58px 40px 40px
@@ -4073,7 +4112,7 @@ p {
 	content: "\e908";
 	font-size: 95px;
 	display: block;
-	color: #b2d235
+	color: #ff6542
 }
 
 .reveal--policy {
@@ -4081,6 +4120,9 @@ p {
 }
 
 @media screen and (min-width:0em) and (max-width:39.9375em) {
+	.dev_color_slider .slick-dots li {
+		margin-bottom: 8px;
+	}
 	h2 {
 		font-size: 28px;
 		line-height: 36px
@@ -4238,7 +4280,7 @@ p {
 		font-size: 13px;
 		line-height: 16px
 	}
-	.page-section.page-section--offer .offer-list_item__img {
+	/* .page-section.page-section--offer .offer-list_item__img {
 		height: auto
 	}
 	.page-section.page-section--offer .offer-list_item__info {
@@ -4254,7 +4296,7 @@ p {
 	}
 	.page-section.page-section--offer .offer-list_item__info .button:focus {
 		bottom: 19px
-	}
+	} */
 	.page-section.page-section--product {
 		padding-bottom: 15px
 	}
@@ -4281,11 +4323,8 @@ p {
 	.page-section.page-section--stock .stock-link::after {
 		display: none
 	}
-	.page-section.page-section--stock .stock-list {
-		margin-bottom: -45px
-	}
-	.page-section.page-section--stock .stock-list_item {
-		margin-bottom: 45px
+	.page-section.page-section--stock .slick-dots {
+		margin-top: 8px;
 	}
 	.page-section.page-section--step .step-list {
 		margin-bottom: -30px
@@ -4385,5 +4424,128 @@ p {
 	}
 	.page-section.page-section--step .step-list_item {
 		margin-bottom: 30px
+	}
+}
+
+
+.whatsapp-link {
+	color: #000;
+}
+.whatsapp-link__icon:after {
+	content: "\e905";
+	color: #32c949;
+	font-family: icomoon;
+    font-size: 20px;
+	line-height: 20px;
+	vertical-align: middle;
+}
+
+
+.phone__inner {
+	color: #000;
+}
+.phone__inner_small {
+	font-size: 16px;
+}
+
+
+
+
+.download-wrapper {
+	position: relative;
+}
+.download-wrapper__link {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+@media (max-width: 500px) {
+	.download-wrapper__link {
+		position: static;
+		justify-content: center;
+		margin-bottom: 16px;
+	}
+}
+
+
+.download-link {
+	display: flex;
+	align-items: center;
+	color: #7f7eff;
+	text-align: left;
+	user-select: none;
+	transition-property: color;
+	transition-duration: .5s;
+}
+.download-link:hover {
+	color: #6868cc;
+}
+.download-link:active {
+	transform: translateY(1px);
+}
+.download-link__icon-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	max-width: 40px;
+	max-height: 40px;
+	min-width: 40px;
+	min-height: 40px;
+	margin-right: 10px;
+	background-color: currentColor;
+	border-radius: 50%;
+}
+.download-link__icon {
+	max-width: 22px;
+	max-height: 22px;
+}
+.download-link__info {
+	display: block;
+}
+.dowload-link__title {
+	display: block;
+	font-size: 14px;
+}
+.download-link__description {
+	display: block;
+	font-size: 10px;
+	text-transform: uppercase;
+	line-height: normal;
+}
+
+
+.to-top {
+	position: fixed;
+	bottom: 50px;
+	right: 50px;
+	z-index: 5;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50px;
+	height: 50px;
+	color: #fff;
+	box-shadow: 0 0 10px rgba(44, 55, 61, 0.3);
+	background-color: #7f7eff;
+	border-radius: 50%;
+	cursor: pointer;
+	transition-property: background-color;
+	transition-duration: .3s;
+}
+.to-top:after {
+	font-family: icomoon;
+    content: "\e906";
+    font-size: 16px;
+	display: block;
+	transform: rotate(-90deg);
+}
+.to-top:hover {
+	background-color:#6868cc;
+}
+
+@media (max-width: 767px) {
+	.to-top {
+		right: 24px;
+		bottom: 24px;
 	}
 }

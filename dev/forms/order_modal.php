@@ -14,6 +14,13 @@
         <div class="form-field form-field--email">
             <input type="email" name="email" placeholder="Ваша электронная почта" required pattern="email"/>
         </div>
+        <div class="form-agreement">
+            Нажимая на кнопку, вы принимаете
+            <a href="javascript:;" data-open="modal-policy" aria-controls="modal-policy" aria-haspopup="true" tabindex="0">
+                Положение и Согласие
+            </a>
+            на обработку персональных данных.
+        </div>
         <button type="submit" class="button button--large button--full"><i
                     class="icon-click"></i>Оставить заявку
         </button>
